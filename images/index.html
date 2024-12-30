@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sample.css">
+    <title>Document</title>
+    <style>
+        body {
+            background: #f39c12;
+            font-size: 60px;
+        }
+        form{
+            font: size 60px;
+            color:aqua;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+    <h3>Brand: GoSriKi</h3><br>
+    <h4>GoSriKi Women's Embroidered Straight Kurta with Pant & Dupatta</h4><br>
+    <h6> 4.4 out of 5 stars 3,363 ratings | Search this page </h6><br>
+    <h6>2k bought in past month</h6><br>
+        <mark> Limited time deal</mark><br>
+        <h5>-73%</h5><h3>₹689.00</h3><br>
+            <del>M.R.P.: ₹2,599.00</del><br>
+            <h6>FREE delivery Wednesday, 1 January. Details</h6><br>
+            <h6> Or fastest delivery Tomorrow, 31 December. Order within 13 hrs 7 mins. Details</h6><br>
+            <h6>Delivering to Hyderabad 500028 - Update location</h6><br>
+            <mark>In stock </mark><br>
+            <form action="">
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </form>
+            <div class="product">
+                <div class="product-small-img">
+                    <img src="./img-1.jpg" onclick="myFunctions(this)">
+                    <img src="./img-2.jpg" onclick="myFunctions(this)">
+                    <img src="./img-3.jpg" onclick="myFunctions(this)">
+                    <img src="./img-4.jpg" onclick="myFunctions(this)">
+                    <img src="./img-5.jpg" onclick="myFunctions(this)">
+
+                </div>
+                <div class="img-container">
+                    <img id="imageBox" src="img-1.jpg">
+
+                </div>
+            </div>
+            <script>
+                function myFunctions(smallImg) {
+                    var fullImg = document.getElementById("imageBox");
+                    fullImg.src = smallImg.src;
+                }
+            </script>
+</body>
+
+</html>
