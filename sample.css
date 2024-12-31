@@ -6,7 +6,7 @@
 
 .product-small-img img
 {
-    height: 92px;
+    height: 20px;
     margin: 10px 0;
     cursor: pointer;
     display: block;
@@ -22,7 +22,7 @@
 }
 .product
 {
-top: -20%;
+top: -70%;
 left: 70%;
 transform: translate(-50%,50%);
 position: absolute;
@@ -30,7 +30,7 @@ position: absolute;
 }
 .img-container img
 {
-height: 1000px;
+height: 1200px;
 }
 .img-container
 {
